@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FloatingHearts } from "./components/FloatingHearts";
+import { CursorHearts } from "./components/CursorHearts";
 import { PageProposal } from "./pages/PageProposal";
 import { PageDateTime } from "./pages/PageDateTime";
 import { PageFood } from "./pages/PageFood";
@@ -65,6 +66,7 @@ function App() {
     <div className="relative min-h-screen w-full flex flex-col items-center justify-center p-4 md:p-8 overflow-x-hidden selection:bg-pink-100 selection:text-pink-600">
       {/* Background floating hearts */}
       <FloatingHearts />
+      <CursorHearts />
 
       {/* Progress & Header Bar (Only visible after Proposal is accepted) */}
       <AnimatePresence>

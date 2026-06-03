@@ -52,10 +52,10 @@
     opacity: 0;
   }
   10% {
-    opacity: 0.6;
+    opacity: 0.35;
   }
   90% {
-    opacity: 0.6;
+    opacity: 0.35;
   }
   100% {
     transform: translateY(-10vh) translateX(var(--drift)) scale(var(--scale));
