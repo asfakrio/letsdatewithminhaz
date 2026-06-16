@@ -111,7 +111,7 @@ export const PageSummary: React.FC<PageSummaryProps> = ({
     const timeText = formatTime(selectedTime);
     const foodText = getFoodString();
 
-    return `💖 It's a Date! 💖\n\n📅 Date: ${dateText}\n⏰ Time: ${timeText}\n🍽️ Food: ${foodText}\n\nThank you for saying yes, Mim ❤️\nRio can't wait to spend this special day with you. Let's enjoy good food, lots of smiles, and create beautiful memories together. 🌹✨`;
+    return `💖 It's a Date! 💖\n\n📅 Date: ${dateText}\n⏰ Time: ${timeText}\n🍽️ Food: ${foodText}\n\nThank you for saying yes, Ritu ❤️\nMinhaz can't wait to spend this special day with you. Let's enjoy good food, lots of smiles, and create beautiful memories together. 🌹✨`;
   };
 
   const handleCopy = () => {
@@ -278,9 +278,9 @@ export const PageSummary: React.FC<PageSummaryProps> = ({
     ctx.font = "italic 20px Georgia, serif";
 
     const msgLines = [
-      "Thank you for saying yes, Mim ❤️",
+      "Thank you for saying yes, Ritu ❤️",
       "",
-      "Rio can't wait to spend this special day with you.",
+      "Minhaz can't wait to spend this special day with you.",
       "",
       "Let's enjoy good food, lots of smiles,",
       "and create beautiful memories together. 🌹✨",
@@ -298,11 +298,11 @@ export const PageSummary: React.FC<PageSummaryProps> = ({
     // Draw elegant signature
     ctx.font = "600 14px sans-serif";
     ctx.fillStyle = "#94a3b8";
-    ctx.fillText("Made with ❤️ by Rio", 400, 930);
+    ctx.fillText("Made with ❤️ by Minhaz", 400, 930);
 
     // Save canvas to link & download
     const link = document.createElement("a");
-    link.download = `Mim_Rio_Date_Details.png`;
+    link.download = `Ritu_Minhaz_Date_Details.png`;
     link.href = canvas.toDataURL("image/png");
     link.click();
   };
@@ -411,8 +411,8 @@ export const PageSummary: React.FC<PageSummaryProps> = ({
 
         {/* Special Message Box */}
         <div className="w-full border-t border-b border-pink-100/60 py-6 mb-8 text-center text-gray-600 font-serif italic text-base md:text-lg leading-relaxed space-y-4">
-          <p>Thank you for saying yes, Mim ❤️</p>
-          <p>Rio can't wait to spend this special day with you.</p>
+          <p>Thank you for saying yes, Ritu ❤️</p>
+          <p>Minhaz can't wait to spend this special day with you.</p>
           <p>Let's enjoy good food, lots of smiles, and create beautiful memories together. 🌹✨</p>
         </div>
 

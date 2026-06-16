@@ -168,7 +168,7 @@ function App() {
         <span>Made with</span>
         <span className="text-[#ff4f8b] animate-pulse">❤️</span>
         <span>by</span>
-        <span className="font-semibold text-white hover:text-[#ff4f8b] transition-colors duration-250">Asfak(Rio)</span>
+        <span className="font-semibold text-white hover:text-[#ff4f8b] transition-colors duration-250">Minhaz</span>
       </footer>
     </div>
   );

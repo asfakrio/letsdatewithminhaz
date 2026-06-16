@@ -25,7 +25,7 @@ interface TempHeart {
 
 const RUNAWAY_MESSAGES = [
   "🥺 Please don't click No...",
-  "👉👈 Are you sure, Mim? Give Rio a chance... ❤️",
+  "👉👈 Are you sure, Ritu? Give Minhaz a chance... ❤️",
   "🌹 Please? It would make me really happy... 😊",
   "🥹 Just one date... I promise it'll be fun! ✨",
   "💖 Okay okay... one last try. Please say Yes? 🥺❤️",
@@ -198,7 +198,7 @@ export const PageProposal: React.FC<PageProposalProps> = ({ onAccept }) => {
                 💖🎉
               </motion.div>
               <h2 className="font-serif font-black text-3xl md:text-4xl text-[#ff4f8b] leading-tight mb-4 drop-shadow-sm">
-                Yay! I knew you'd say yes, Mim! ❤️
+                Yay! I knew you'd say yes, Ritu! ❤️
               </h2>
               <p className="font-sans font-semibold text-gray-400 text-sm mt-2 animate-pulse">
                 Setting up our date plan... ✨
@@ -282,7 +282,7 @@ export const PageProposal: React.FC<PageProposalProps> = ({ onAccept }) => {
 
         {/* Serif Romantic Heading */}
         <h1 className="font-serif font-black text-4xl md:text-5xl lg:text-6xl text-gray-800 tracking-tight leading-tight mb-8 max-w-xl">
-          Will you go on a date with Rio?
+          Will you go on a date with Minhaz?
         </h1>
 
         {/* Message bubble for attempts */}
